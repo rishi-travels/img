@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Two Images</title>
+  <style>
+    .image-container {
+      display: flex;
+      gap: 20px; /* space between images */
+    }
+    .image-container img {
+      width: 600px;
+      height: 400px;
+      object-fit: cover; /* ensures the image fills the box neatly */
+      border: 2px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <h2>Two Images from Folder</h2>
+  <div class="image-container">
+    <img src="images/image1.jpg" alt="First Image">
+    <img src="images/image2.jpg" alt="Second Image">
+  </div>
+</body>
+</html>
